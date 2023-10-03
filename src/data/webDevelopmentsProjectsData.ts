@@ -1,4 +1,4 @@
-export const webDevelopmentData = [
+export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
   {
     id: 'FS-wayu-mx',
     title: 'Wayu Inc (Mexico)',

@@ -1,11 +1,24 @@
-import { WebProjects } from './pages/WebProjects.tsx'
+import { WebDevelopmentsProjects } from './pages/WebDevelopmentsProjects.tsx'
+import { AnimationsProjects } from './pages/AnimationsProjects.tsx'
+import { VideoGamesProjects } from './pages/VideoGamesProjects.tsx'
+import { ProjectDetail } from './pages/ProjectDetail.tsx'
+import { Navbar } from './components/Navbar/Navbar.tsx'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
 function App () {
   return (
-    <>
-      <WebProjects />
-    </>
+    <HashRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<WebDevelopmentsProjects />} />
+        <Route path='/web-develpment' element={<WebDevelopmentsProjects />} />
+        <Route path='/animations' element={<AnimationsProjects />} />
+        <Route path='/videogames' element={<VideoGamesProjects />} />
+        <Route path='/project-detail' element={<ProjectDetail />} />
+        <Route path='*' element={<p>Not Found</p>} />
+      </Routes>
+    </HashRouter>
   )
 }
 

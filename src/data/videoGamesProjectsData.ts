@@ -1,9 +1,9 @@
-export const videoGamesData = {
-  'VG-clicker-caper': {
+export const VIDEO_GAMES_PROJECTS_DATA = [
+  {
     id: 'VG-clicker-caper',
     title: 'Clicker Caper',
     subtitle: 'Idle/Clicker game',
-    image: '/images/videogames/clicker-caper.png',
+    image: 'src/assets/images/videogames/clicker-caper.png',
     area: { name: 'Videogame', color: 'brown' },
     links: [
       ['Demo', 'https://www.youtube.com/watch?v=Xj-hlHuhPiQ'],
@@ -29,11 +29,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-spinner-ar-multiplayer': {
+  {
     id: 'VG-spinner-ar-multiplayer',
     title: 'Spinner AR Multiplayer',
     subtitle: 'Online Multiplayer Game',
-    image: '/images/videogames/spinner-ar-multiplayer.png',
+    image: 'src/assets/images/videogames/spinner-ar-multiplayer.png',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
@@ -50,12 +50,11 @@ export const videoGamesData = {
       ]
     }
   },
-
-  'VG-space-invasion': {
+  {
     id: 'VG-space-invasion',
     title: 'Space Invasion',
     subtitle: 'Shooting game',
-    image: '/images/videogames/space-invasion.png',
+    image: 'src/assets/images/videogames/space-invasion.png',
     area: { name: 'Videogame', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
@@ -72,11 +71,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-mercantil-ar-corp': {
+  {
     id: 'VG-mercantil-ar-corp',
     title: 'Mercantil AR Corp',
     subtitle: 'Photo Studio Entertainment System',
-    image: '/images/videogames/mercantil-ar-corp.jpg',
+    image: 'src/assets/images/videogames/mercantil-ar-corp.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [
       ['Video Clip 1', 'https://youtu.be/hP2hq6sWbeQ'],
@@ -95,11 +94,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-wayu-dash': {
+  {
     id: 'VG-wayu-dash',
     title: 'Wayu Dash',
     subtitle: 'Mobile Game',
-    image: '/images/videogames/wayu-dash.jpg',
+    image: 'src/assets/images/videogames/wayu-dash.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/wayu-dash'],
@@ -118,11 +117,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-learning-with-ar': {
+  {
     id: 'VG-learning-with-ar',
     title: 'Learning AR With Armando',
     subtitle: 'Mobile App',
-    image: '/images/videogames/learning-with-ar.jpg',
+    image: 'src/assets/images/videogames/learning-with-ar.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [['Video Clip', 'https://youtu.be/slQDzWXIMT0']],
     date: '2017',
@@ -135,11 +134,11 @@ export const videoGamesData = {
       links: [['Video Clip', 'https://youtu.be/slQDzWXIMT0']]
     }
   },
-  'VG-roller-madness': {
+  {
     id: 'VG-roller-madness',
     title: 'Roller Madness',
     subtitle: 'Game for Desktop',
-    image: '/images/videogames/roller-madness.jpg',
+    image: 'src/assets/images/videogames/roller-madness.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
@@ -160,11 +159,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-box-shooter': {
+  {
     id: 'VG-box-shooter',
     title: 'Box shooter',
     subtitle: 'Game for Desktop',
-    image: '/images/videogames/box-shooter.jpg',
+    image: 'src/assets/images/videogames/box-shooter.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
@@ -181,11 +180,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-awesome-runner': {
+  {
     id: 'VG-awesome-runner',
     title: 'Awesome Runner',
     subtitle: 'Mobile Game',
-    image: '/images/videogames/awesome-runner.jpg',
+    image: 'src/assets/images/videogames/awesome-runner.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [['Github', 'https://github.com/andresnavag93/awesome-runner']],
     date: '2020',
@@ -197,11 +196,11 @@ export const videoGamesData = {
       links: [['Github', 'https://github.com/andresnavag93/awesome-runner']]
     }
   },
-  'VG-wayu-business-ar': {
+  {
     id: 'VG-wayu-business-ar',
     title: 'Wayu Business Card',
     subtitle: 'Mobile App',
-    image: '/images/videogames/wayu-business-ar.jpg',
+    image: 'src/assets/images/videogames/wayu-business-ar.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [['Video Clip', 'https://youtu.be/csGzL_KCKqA']],
     date: '2019',
@@ -216,11 +215,11 @@ export const videoGamesData = {
       links: [['Video Clip', 'https://youtu.be/csGzL_KCKqA']]
     }
   },
-  'VG-mercantil-ar-holidays': {
+  {
     id: 'VG-mercantil-ar-holidays',
     title: 'Happy Holidays Mercantil',
     subtitle: 'Mobile App',
-    image: '/images/videogames/mercantil-ar-holidays.jpg',
+    image: 'src/assets/images/videogames/mercantil-ar-holidays.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [['Video Clip', 'https://youtu.be/yNReXfp_ugc']],
     date: '2020',
@@ -233,11 +232,11 @@ export const videoGamesData = {
       links: [['Video Clip', 'https://youtu.be/yNReXfp_ugc']]
     }
   },
-  'VG-space-man': {
+  {
     id: 'VG-space-man',
     title: 'Space Man Run',
     subtitle: 'Mobile Game',
-    image: '/images/videogames/space-man.jpg',
+    image: 'src/assets/images/videogames/space-man.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-man'],
@@ -255,11 +254,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-spaceman': {
+  {
     id: 'VG-spaceman',
     title: 'Space Platform',
     subtitle: 'Game for Mobile',
-    image: '/images/videogames/spaceman.jpg',
+    image: 'src/assets/images/videogames/spaceman.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-platform'],
@@ -280,11 +279,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-ping-pong': {
+  {
     id: 'VG-ping-pong',
     title: 'Classic Pong',
     subtitle: 'Game for Mobile',
-    image: '/images/videogames/ping-pong.jpg',
+    image: 'src/assets/images/videogames/ping-pong.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
@@ -303,11 +302,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-memoriar': {
+  {
     id: 'VG-memoriar',
     title: 'Memory Ar',
     subtitle: 'Mobile App',
-    image: '/images/videogames/memoriar.jpg',
+    image: 'src/assets/images/videogames/memoriar.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [['Video Clip', 'https://youtu.be/Kgtr5BIKgy8']],
     date: '2017',
@@ -322,11 +321,11 @@ export const videoGamesData = {
       links: [['Video Clip', 'https://youtu.be/Kgtr5BIKgy8']]
     }
   },
-  'VG-solar-system': {
+  {
     id: 'VG-solar-system',
     title: 'Solar System',
     subtitle: 'Desktop Simulation',
-    image: '/images/videogames/solar-system.jpg',
+    image: 'src/assets/images/videogames/solar-system.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/solar-system'],
@@ -347,11 +346,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-star-wars': {
+  {
     id: 'VG-star-wars',
     title: 'Star Wars',
     subtitle: 'Game for Desktop',
-    image: '/images/videogames/star-wars.jpg',
+    image: 'src/assets/images/videogames/star-wars.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
@@ -370,11 +369,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-puzzle-ball': {
+  {
     id: 'VG-puzzle-ball',
     title: 'Puzzle Ball',
     subtitle: 'Mobile Game',
-    image: '/images/videogames/puzzle-ball.jpg',
+    image: 'src/assets/images/videogames/puzzle-ball.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [
       ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
@@ -392,11 +391,11 @@ export const videoGamesData = {
       ]
     }
   },
-  'VG-zigzag-ball': {
+  {
     id: 'VG-zigzag-ball',
     title: 'ZigZag Ball',
     subtitle: 'Mobile Game',
-    image: '/images/videogames/zigzag-ball.jpg',
+    image: 'src/assets/images/videogames/zigzag-ball.jpg',
     area: { name: 'Video Game', color: 'brown' },
     links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']],
     date: '2020',
@@ -408,4 +407,4 @@ export const videoGamesData = {
       links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']]
     }
   }
-}
+]

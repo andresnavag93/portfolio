@@ -7,11 +7,11 @@ import IconButton from '@mui/material/IconButton'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemButton from '@mui/material/ListItemButton'
-import ListItemText from '@mui/material/ListItemText'
 import MenuIcon from '@mui/icons-material/Menu'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 interface Props {
   /**
@@ -21,10 +21,21 @@ interface Props {
   window?: () => Window
 }
 
+const routes = [{
+  to: '/',
+  text: 'Web'
+}, {
+  to: '/videogames',
+  text: 'Videogames'
+}, {
+  to: '/animations',
+  text: 'Animations'
+}]
+
 const drawerWidth = 240
-const navItems = ['Web', 'Games', 'Animations']
 
 export function Navbar (props: Props) {
+  const navigate = useNavigate()
   const { window } = props
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -34,17 +45,19 @@ export function Navbar (props: Props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        Portfolio
+      <Typography variant="h6" sx={{ my: 2 }} onClick={() => { navigate('/') }}>
+        Portfolio Mobil
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
+        {routes.map((item) => (
+          <NavLink to={item.to} key={item.text}>
+            <ListItem disablePadding>
+              <ListItemButton sx={{ textAlign: 'center', color: '#fff' }}>
+                {item.text}
+              </ListItemButton>
+            </ListItem>
+          </NavLink>
         ))}
       </List>
     </Box>
@@ -68,15 +81,18 @@ export function Navbar (props: Props) {
           <Typography
             variant="h6"
             component="div"
+            onClick={() => { navigate('/') }}
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
             Portfolio
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
+            {routes.map((item) => (
+              <NavLink key={item.text} to={item.to}>
+                <Button sx={{ color: '#fff' }}>
+                  {item.text}
+                </Button>
+              </NavLink>
             ))}
           </Box>
         </Toolbar>

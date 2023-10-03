@@ -4,9 +4,10 @@ import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
+import { NavLink } from 'react-router-dom'
 
-export function ProjectCard ({ webProject }) {
-  const { title, subtitle, image } = webProject
+export function ProjectCard ({ project }) {
+  const { title, subtitle, image } = project
 
   return (
     <Card sx={{ maxWidth: 400 }}>
@@ -24,7 +25,9 @@ export function ProjectCard ({ webProject }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <NavLink to="/project-detail">
+          <Button size="small">Learn More</Button>
+        </NavLink>
       </CardActions>
     </Card>
   )

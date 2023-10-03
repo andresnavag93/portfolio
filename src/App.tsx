@@ -1,9 +1,10 @@
+import { WebProjects } from './pages/WebProjects.tsx'
 import './App.css'
 
 function App () {
   return (
     <>
-      <h1>Andres Navarro Portfolio</h1>
+      <WebProjects />
     </>
   )
 }

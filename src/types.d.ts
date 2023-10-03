@@ -111,3 +111,31 @@ export const colors = [
   'grey',
   'black'
 ]
+
+export interface ProjectTest {
+  project: Root
+}
+
+export interface Root {
+  id: string
+  title: string
+  subtitle: string
+  image: string
+  area: Area
+  date: string
+  features: Features
+}
+
+export interface Area {
+  name: string
+  color: string
+}
+
+export interface Features {
+  client: string
+  classification: string
+  'developed in': string
+  description: string
+  technologies: string[]
+  links: string[][]
+}

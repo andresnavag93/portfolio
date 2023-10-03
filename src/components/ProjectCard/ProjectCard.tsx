@@ -5,8 +5,9 @@ import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import { NavLink } from 'react-router-dom'
+import { type ProjectTest } from '../../types'
 
-export function ProjectCard ({ project }) {
+export function ProjectCard ({ project }: ProjectTest) {
   const { title, subtitle, image } = project
 
   return (

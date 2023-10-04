@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import Card from '@mui/material/Card'
 import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
@@ -13,9 +14,66 @@ interface Props {
   hasLink?: boolean
 }
 
+const getWindowDimensions = () => {
+  const { innerWidth: width, innerHeight: height } = window
+  return {
+    width,
+    height
+  }
+}
+
+export const useWindowDimensions = () => {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions())
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowDimensions(getWindowDimensions())
+    }
+
+    window.addEventListener('resize', handleResize)
+    return () => { window.removeEventListener('resize', handleResize) }
+  }, [])
+
+  return windowDimensions
+}
+
 export const ProjectCard = ({ project, hasLink = true }: Props) => {
+  const { width } = useWindowDimensions()
   const { id, title, subtitle, image, area } = project
   const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
+
+  if (width < 768) {
+    return (
+      <Card sx={{ width: '100%', maxWidth: 400 }}>
+        <CardMedia
+          sx={{ height: 250, maxHeight: 400 }}
+          image={imgUrl}
+          title={title}
+        />
+        <CardContent>
+          {hasLink
+            ? <Typography gutterBottom variant="h5" component="div">
+              {title}
+            </Typography>
+            : null}
+          <Typography variant="h6" color="text.secondary">
+            {subtitle}
+          </Typography>
+          <Typography variant="h6" color="text.secondary">
+            {area.name}
+          </Typography>
+        </CardContent>
+        {hasLink
+          ? <CardActions>
+            <NavLink to={`/project-detail/${id}`}
+            >
+              <Button size="small">Learn More</Button>
+            </NavLink>
+          </CardActions>
+          : null}
+      </Card >
+    )
+  }
 
   return (
     <Atropos style={{ width: '100%', maxWidth: 400 }}
@@ -25,7 +83,7 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
 
       <Card sx={{ width: '100%', maxWidth: 400 }}>
         <CardMedia
-          sx={{ height: 250 }}
+          sx={{ height: 250, maxHeight: 400 }}
           image={imgUrl}
           title={title}
         />

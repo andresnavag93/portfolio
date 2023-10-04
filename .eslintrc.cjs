@@ -5,14 +5,18 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard-with-typescript'
+    'standard-with-typescript',
+    'eslint:recommended'
   ],
   overrides: [
   ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: './tsconfig.json'
+    project: './tsconfig.json',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   plugins: [
     'react'

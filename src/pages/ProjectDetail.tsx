@@ -34,12 +34,12 @@ export const ProjectDetail = () => {
   const getLinksRow = (links: string[][]) => {
     if (links?.length > 0) {
       return (
-      <TableRow key="links-row" sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-        <TableCell component="th" scope="row">
-          Links
-        </TableCell>
-        <TableCell align="left">{parseLinks(links)}</TableCell>
-      </TableRow>
+        <TableRow key="links-row" sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+          <TableCell component="th" scope="row">
+            Links
+          </TableCell>
+          <TableCell align="left">{parseLinks(links)}</TableCell>
+        </TableRow>
       )
     } else {
       return null

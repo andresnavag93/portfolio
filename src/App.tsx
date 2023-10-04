@@ -6,7 +6,7 @@ import { Navbar } from './components/Navbar/Navbar.tsx'
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
-function App () {
+export const App = () => {
   return (
     <HashRouter>
       <Navbar />

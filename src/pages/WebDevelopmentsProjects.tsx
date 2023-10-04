@@ -6,7 +6,7 @@ export const WebDevelopmentsProjects = () => {
   return (
     <>
       <WebTitle title="Web Developments" />
-      <ProjectList projectData={WEB_DEVELOPMENTS_PROJECTS_DATA}/>
+      <ProjectList projectData={WEB_DEVELOPMENTS_PROJECTS_DATA} />
     </>
   )
 }

@@ -34,7 +34,7 @@ const routes = [{
 
 const drawerWidth = 240
 
-export function Navbar (props: Props) {
+export const Navbar = (props: Props) => {
   const navigate = useNavigate()
   const { window } = props
   const [mobileOpen, setMobileOpen] = useState(false)

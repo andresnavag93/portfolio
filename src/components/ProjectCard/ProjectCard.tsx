@@ -12,7 +12,7 @@ interface Props {
   hasLink?: boolean
 }
 
-export function ProjectCard ({ project, hasLink = true }: Props) {
+export const ProjectCard = ({ project, hasLink = true }: Props) => {
   const { title, subtitle, image } = project
   const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
 
@@ -33,10 +33,10 @@ export function ProjectCard ({ project, hasLink = true }: Props) {
       </CardContent>
       {hasLink
         ? <CardActions>
-        <NavLink to="/project-detail">
-          <Button size="small">Learn More</Button>
-        </NavLink>
-      </CardActions>
+          <NavLink to="/project-detail">
+            <Button size="small">Learn More</Button>
+          </NavLink>
+        </CardActions>
         : null}
     </Card>
   )

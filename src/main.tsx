@@ -16,7 +16,7 @@ const darkTheme = createTheme({
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
+    <CssBaseline />
     <App />
   </ThemeProvider>
 )

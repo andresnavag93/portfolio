@@ -11,6 +11,7 @@ import TableRow from '@mui/material/TableRow'
 import { WebTitle } from '../components/WebTitle/WebTitle.tsx'
 import Stack from '@mui/material/Stack'
 import Box from '@mui/material/Box'
+import { ProjectCard } from '../components/ProjectCard/ProjectCard.tsx'
 
 export const ProjectDetail = () => {
   const navigate = useNavigate()
@@ -25,7 +26,7 @@ export const ProjectDetail = () => {
     return null
   }
 
-  const { title, subtitle, image, area, description, features } = project
+  const { title, description, features } = project
   const { client, classification, technologies, links, developedIn } = features
 
   const parseLinks = (links: string[][]) => {
@@ -55,23 +56,15 @@ export const ProjectDetail = () => {
       return null
     }
   }
-
-  const imgUrl = new URL(`../assets/images/${image}`, import.meta.url).href
   return (
     <>
       <Button onClick={() => { navigate(-1) }} sx={{ position: 'absolute', top: 80, left: 20 }}>
         Back
       </Button>
       <WebTitle title={title} />
-      <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 4 }} sx={{ mt: 5 }}>
-        <img src={imgUrl} alt="" style={{ width: '100%', maxWidth: '300px' }} />
-        <Stack sx={{ width: '100%', maxWidth: '300px' }} direction='column'>
-          <Typography variant="h5"> {subtitle} </Typography>
-          <Typography> {area.name} </Typography>
-        </Stack>
+      <Stack sx={{ m: '0 auto', width: '100%', display: 'flex', alignItems: 'center', mt: 5, flexGrow: 1 }}>
+        <ProjectCard project={project} hasLink={false} />
       </Stack>
-
-      { }
       <Typography variant="h4" sx={{ mt: 5 }}> About this project </Typography>
       <Typography sx={{ width: '100%', maxWidth: '700px', mt: 3 }}> {description} </Typography>
       <Box sx={{ overflow: 'auto', mt: 5 }} component={Paper}>

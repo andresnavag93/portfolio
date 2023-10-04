@@ -12,6 +12,8 @@ import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import { NavLink, useNavigate } from 'react-router-dom'
+import logo from '../../assets/logo.svg'
+import Link from '@mui/material/Link'
 
 interface Props {
   /**
@@ -45,9 +47,19 @@ export const Navbar = (props: Props) => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }} onClick={() => { navigate('/') }}>
-        Portfolio Mobil
-      </Typography>
+      <Link onClick={() => { navigate('/') }}>
+        <Box
+          component="img"
+          sx={{
+            height: 'auto',
+            width: 50,
+            maxHeight: { xs: 50, md: 50 },
+            maxWidth: { xs: 50, md: 50 }
+          }}
+          alt="Logo"
+          src={logo}
+        />
+      </Link>
       <Divider />
       <List>
         {routes.map((item) => (
@@ -78,14 +90,23 @@ export const Navbar = (props: Props) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
+          <Link
             variant="h6"
             component="div"
             onClick={() => { navigate('/') }}
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            Portfolio
-          </Typography>
+          ><Box
+              component="img"
+              sx={{
+                height: 'auto',
+                width: 50,
+                maxHeight: { xs: 50, md: 50 },
+                maxWidth: { xs: 50, md: 50 }
+              }}
+              alt="Logo"
+              src={logo}
+            />
+          </Link>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {routes.map((item) => (
               <NavLink key={item.text} to={item.to}>

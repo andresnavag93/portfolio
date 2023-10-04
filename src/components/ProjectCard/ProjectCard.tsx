@@ -13,22 +13,27 @@ interface Props {
 }
 
 export const ProjectCard = ({ project, hasLink = true }: Props) => {
-  const { id, title, subtitle, image } = project
+  const { id, title, subtitle, image, area } = project
   const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
 
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ width: '100%', maxWidth: 400 }}>
       <CardMedia
         sx={{ height: 250 }}
         image={imgUrl}
         title="byson"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {title}
+        {hasLink
+          ? <Typography gutterBottom variant="h5" component="div">
+            {title}
+          </Typography>
+          : null}
+        <Typography variant="h6" color="text.secondary">
+          {area.name}: {subtitle}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {subtitle}
+        <Typography variant="h6" color="text.secondary">
+
         </Typography>
       </CardContent>
       {hasLink

@@ -7,25 +7,16 @@ export interface Project {
   date?: string
   area: Area
   features?: Features
-  urls?: Urls[]
+  links?: string[][]
 }
 export interface Features {
-  classification: string
-  company?: string
-  technologies: Technology[]
-  urls?: Urls[]
+  classification?: string
+  technologies?: string[]
+  client?: string
+  developedIn?: string
+  links?: string[][]
 }
 export interface Area {
   name: string
   color: string
-}
-
-export interface Urls {
-  name: string
-  url: string
-}
-
-export interface Technology {
-  name: string
-  icon?: string
 }

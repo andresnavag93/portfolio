@@ -13,12 +13,13 @@ interface Props {
 
 export function ProjectCard ({ project }: Props) {
   const { title, subtitle, image } = project
+  const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
 
   return (
     <Card sx={{ maxWidth: 400 }}>
       <CardMedia
         sx={{ height: 250 }}
-        image={image}
+        image={imgUrl}
         title="byson"
       />
       <CardContent>

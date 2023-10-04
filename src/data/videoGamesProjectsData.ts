@@ -3,7 +3,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-clicker-caper',
     title: 'Clicker Caper',
     subtitle: 'Idle/Clicker game',
-    image: 'src/assets/images/videogames/clicker-caper.png',
+    image: 'videogames/clicker-caper.png',
     area: { name: 'Videogame', color: 'brown' },
     date: '2022',
     description: ''
@@ -33,7 +33,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-spinner-ar-multiplayer',
     title: 'Spinner AR Multiplayer',
     subtitle: 'Online Multiplayer Game',
-    image: 'src/assets/images/videogames/spinner-ar-multiplayer.png',
+    image: 'videogames/spinner-ar-multiplayer.png',
     area: { name: 'Augmented Reality', color: 'blue' },
     date: '2020',
     description: ''
@@ -54,7 +54,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-space-invasion',
     title: 'Space Invasion',
     subtitle: 'Shooting game',
-    image: 'src/assets/images/videogames/space-invasion.png',
+    image: 'videogames/space-invasion.png',
     area: { name: 'Videogame', color: 'brown' },
     date: '2020',
     description: ''
@@ -75,7 +75,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-mercantil-ar-corp',
     title: 'Mercantil AR Corp',
     subtitle: 'Photo Studio Entertainment System',
-    image: 'src/assets/images/videogames/mercantil-ar-corp.jpg',
+    image: 'videogames/mercantil-ar-corp.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     date: '2020',
     description: 'Christmas photo studio with augmented reality for taking photographs to the employees of Mercantil Bank with 3D characters. These are not physically in reality but thanks to some cards with patterns, they can be captured on a monitor and see how the photographs will look before they are taken. The respective set of photos is sent to a participant\'s phone by WhatsApp.'
@@ -98,7 +98,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-wayu-dash',
     title: 'Wayu Dash',
     subtitle: 'Mobile Game',
-    image: 'src/assets/images/videogames/wayu-dash.jpg',
+    image: 'videogames/wayu-dash.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2019',
     description: 'Mobile platform game that consists of obtaining the highest possible score, catching coins, and overcoming obstacles of different worlds in order to compete for the first place with other players.'
@@ -122,7 +122,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2017',
     title: 'Learning AR With Armando',
     subtitle: 'Mobile App',
-    image: 'src/assets/images/videogames/learning-with-ar.jpg',
+    image: 'videogames/learning-with-ar.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     description: `A mobile game with augmented reality that allows children under
         5 years old to count the numbers, how to trace and write, associations with the
@@ -138,7 +138,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-roller-madness',
     title: 'Roller Madness',
     subtitle: 'Game for Desktop',
-    image: 'src/assets/images/videogames/roller-madness.jpg',
+    image: 'videogames/roller-madness.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2018',
     description: `3D video game that consists of collecting a certain amount of
@@ -163,7 +163,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-box-shooter',
     title: 'Box shooter',
     subtitle: 'Game for Desktop',
-    image: 'src/assets/images/videogames/box-shooter.jpg',
+    image: 'videogames/box-shooter.jpg',
     date: '2018',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D video game consisting of earning points by shooting different cubes in a limited time. The yellow ones take away time, the white ones add time and the green ones add points (Education Purposes)'
@@ -185,7 +185,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2020',
     title: 'Awesome Runner',
     subtitle: 'Mobile Game',
-    image: 'src/assets/images/videogames/awesome-runner.jpg',
+    image: 'videogames/awesome-runner.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a frog spaceman runs endless through a city, jumping platforms and avoiding enemies (Education Purposes).'
     // links: [['Github', 'https://github.com/andresnavag93/awesome-runner']],
@@ -201,7 +201,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2019',
     title: 'Wayu Business Card',
     subtitle: 'Mobile App',
-    image: 'src/assets/images/videogames/wayu-business-ar.jpg',
+    image: 'videogames/wayu-business-ar.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     description: `Mobile application with augmented reality that allows us to show additional
         information about the services offered in the company in a different and creative way.
@@ -220,7 +220,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2020',
     title: 'Happy Holidays Mercantil',
     subtitle: 'Mobile App',
-    image: 'src/assets/images/videogames/mercantil-ar-holidays.jpg',
+    image: 'videogames/mercantil-ar-holidays.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     links: [['Video Clip', 'https://youtu.be/yNReXfp_ugc']],
     description: 'Christmas Mobile app with Augmented Reality for Mercantil Bank clients. This app allows taking pictures with different 3D animated characters and sharing them on social networks. In addition, it has additional functionalities where the character can be moved, rotated, and scaled in space according to how you want it to appear in the photo.'
@@ -236,7 +236,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-space-man',
     title: 'Space Man Run',
     subtitle: 'Mobile Game',
-    image: 'src/assets/images/videogames/space-man.jpg',
+    image: 'videogames/space-man.jpg',
     date: '2021',
     area: { name: 'Video Game', color: 'brown' },
     description: '2D platform game where a spaceman runs endless grabbing coins and avoiding enemies (Education Purposes).'
@@ -258,7 +258,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-spaceman',
     title: 'Space Platform',
     subtitle: 'Game for Mobile',
-    image: 'src/assets/images/videogames/spaceman.jpg',
+    image: 'videogames/spaceman.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2019',
     description: `A 2D platform video game that consists of advancing
@@ -283,7 +283,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-ping-pong',
     title: 'Classic Pong',
     subtitle: 'Game for Mobile',
-    image: 'src/assets/images/videogames/ping-pong.jpg',
+    image: 'videogames/ping-pong.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2019',
     description: '2D video game of the classic pong table game (Education Purposes).'
@@ -307,7 +307,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2017',
     title: 'Memory Ar',
     subtitle: 'Mobile App',
-    image: 'src/assets/images/videogames/memoriar.jpg',
+    image: 'videogames/memoriar.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     description: `A mobile game that allows you to play the classic memory game with
         augmented reality using different animal marks. It consists of seeing the animals
@@ -325,7 +325,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-solar-system',
     title: 'Solar System',
     subtitle: 'Desktop Simulation',
-    image: 'src/assets/images/videogames/solar-system.jpg',
+    image: 'videogames/solar-system.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2018',
     description: `Desktop video game consisting of collecting coins, passing
@@ -350,7 +350,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-star-wars',
     title: 'Star Wars',
     subtitle: 'Game for Desktop',
-    image: 'src/assets/images/videogames/star-wars.jpg',
+    image: 'videogames/star-wars.jpg',
     date: '2017',
     area: { name: 'Video Game', color: 'brown' },
     description: `Desktop video game consisting of collecting coins, passing
@@ -373,7 +373,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-puzzle-ball',
     title: 'Puzzle Ball',
     subtitle: 'Mobile Game',
-    image: 'src/assets/images/videogames/puzzle-ball.jpg',
+    image: 'videogames/puzzle-ball.jpg',
     date: '2020',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D puzzle levels (Education Purposes).'
@@ -396,7 +396,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2020',
     title: 'ZigZag Ball',
     subtitle: 'Mobile Game',
-    image: 'src/assets/images/videogames/zigzag-ball.jpg',
+    image: 'videogames/zigzag-ball.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a ball rolls endless through falling platforms(Education Purposes).'
     // links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']],

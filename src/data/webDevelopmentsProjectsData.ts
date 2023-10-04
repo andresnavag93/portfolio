@@ -3,7 +3,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-wayu-mx',
     title: 'Wayu Inc (Mexico)',
     subtitle: 'Landing Web',
-    image: 'src/assets/images/fullstack/wayu-mx.jpg',
+    image: 'fullstack/wayu-mx.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2019',
     description: 'Corporate website with landing web structure dedicated to digital marketing. You can view the different sections of who we are, descriptions of products or plans, and testimonials from companies that have enjoyed the digital marketing service.'
@@ -22,7 +22,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-walmart-apct-aphub',
     title: 'Walmart (APCT - APIHUB)',
     subtitle: 'Websystem',
-    image: 'src/assets/images/fullstack/walmart-apct-aphub.png',
+    image: 'fullstack/walmart-apct-aphub.png',
     area: { name: 'Front-End', color: 'blue' },
     date: '2022',
     description: 'Web system for the listing of orders for APCT. The overall project was divided into two phases. The first one was the construction of the UI for the search by id in which the information is displayed and imported into excel. The second phase was the construction of an APHUB that will serve as a gateway to APCT and other applications in the walmart ecosystem. '
@@ -38,7 +38,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-marvel-world',
     title: 'Marvel World',
     subtitle: 'Website',
-    image: 'src/assets/images/fullstack/marvel-world.jpg',
+    image: 'fullstack/marvel-world.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2020',
     description: 'Marvel concept web page where you can see existing characters, comics, and stories, as well as bookmark and uncheck favorites. The best practices in development are used for a good score in Performance, web accessibility, PWA, and best practices in the lighthouse.'
@@ -58,7 +58,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-nativapps-tutorials',
     title: 'NativApps Tutorials',
     subtitle: 'Landing Web',
-    image: 'src/assets/images/fullstack/nativapps-tutorials.jpg',
+    image: 'fullstack/nativapps-tutorials.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2020',
     description: `Landing web of services dedicated to the exhibition of online tutorials.
@@ -76,7 +76,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-wayu',
     title: 'Wayu Inc',
     subtitle: 'Website',
-    image: 'src/assets/images/fullstack/wayu.jpg',
+    image: 'fullstack/wayu.jpg',
     area: { name: 'FrontEnd', color: 'blue' },
     date: '2018',
     description: `Corporate website to offer different development services in
@@ -99,7 +99,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-walmart-cill',
     title: 'Walmart (Cill)',
     subtitle: 'Websystem',
-    image: 'src/assets/images/fullstack/walmart-cill.jpg',
+    image: 'fullstack/walmart-cill.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2021',
     description: 'A system dedicated to internal error handling at Walmart. The system includes an advanced search, a complete list of errors, a detailed error view, error filters or attributes, and a help page.'
@@ -115,7 +115,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-policies',
     title: 'Microservices Policy System',
     subtitle: 'Web System ',
-    image: 'src/assets/images/fullstack/policies.jpg',
+    image: 'fullstack/policies.jpg',
     area: { name: 'Full Stack', color: 'brown' },
     date: '2021',
     description: 'Vehicle policy system with microservices architecture. It has login, registration and views of clients, vehicles and policies.'
@@ -129,7 +129,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-sloncare',
     title: 'Sloncare',
     subtitle: 'Health & Care System API',
-    image: 'src/assets/images/fullstack/sloncare.jpg',
+    image: 'fullstack/sloncare.jpg',
     area: { name: 'Back-End', color: 'red' },
     date: '2018',
     description: 'Health savings system with a payment gateway, where different users can obtain services from doctors and/or clinics such as medical appointments, surgical operations, emergency tickets, among others.'
@@ -147,7 +147,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-platzi-punks',
     title: 'NFTs Marketplace',
     subtitle: 'Decentralized app',
-    image: 'src/assets/images/fullstack/platzi-punks.jpg',
+    image: 'fullstack/platzi-punks.jpg',
     area: { name: 'Dapp', color: 'black' },
     date: '2021',
     description: 'Decentralized Nft Marketplace with a maximum collection of 10,000 Nfts with ERC721 standards. The Dapp is deployed in the Rinkeby testnet. The Platzi Punks can be mint and also be listed on rinkbeky\'s testnet on Opensea.'
@@ -175,7 +175,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-mokepon',
     title: 'Mokepon',
     subtitle: 'Website',
-    image: 'src/assets/images/fullstack/mokepon.png',
+    image: 'fullstack/mokepon.png',
     area: { name: 'Front-End', color: 'blue' },
     date: '2023',
     description: 'Fun simulation of the classic game of rock, paper and scissors disguised as animals. You can select an animal, move on the board and choose the powers to fight.'
@@ -192,7 +192,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-bison-gym',
     title: 'Bison Reserve',
     subtitle: 'Booking System API',
-    image: 'src/assets/images/fullstack/bison-gym.jpg',
+    image: 'fullstack/bison-gym.jpg',
     area: { name: 'Back-End', color: 'red' },
     date: '2020',
     description: 'Users belonging to a sports center or gym will be able to observe: disciplines taught, calendar of classes together with their schedule and coach, reservation of classes to be attended, the score of classes in which a User participated, payment through the platform, registration of the latest payments made and news and relevant information from the sports center/gym.'
@@ -208,7 +208,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-pavimenti',
     title: 'Pavimenti',
     subtitle: 'Ecommerce System API',
-    image: 'src/assets/images/fullstack/pavimenti.jpg',
+    image: 'fullstack/pavimenti.jpg',
     area: { name: 'Back-End', color: 'red' },
     date: '2018',
     description: `Electronic commerce to sell construction materials. It has: user
@@ -226,7 +226,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-evencorp',
     title: 'Evencorp',
     subtitle: 'Corporate Website',
-    image: 'src/assets/images/fullstack/evencorp.jpg',
+    image: 'fullstack/evencorp.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2021',
     description: 'Corporate page to show the products and services, photo gallery and evencorp company information.'
@@ -241,7 +241,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-giffy',
     title: 'Giffy',
     subtitle: 'Website',
-    image: 'src/assets/images/fullstack/giffy.jpg',
+    image: 'fullstack/giffy.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2020',
     description: 'Training React skills building with a website that lists and searches gifs by name (Educational Purposes).'
@@ -258,7 +258,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-google-clone',
     title: 'Google Clone',
     subtitle: 'Website',
-    image: 'src/assets/images/fullstack/google-clone.png',
+    image: 'fullstack/google-clone.png',
     area: { name: 'Front-End', color: 'blue' },
     date: '2023',
     description: 'Replica of the google home page for practicing HTML and CSS.'
@@ -275,7 +275,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-avocado-ecommerce',
     title: 'Avocado Ecommerce',
     subtitle: 'Website',
-    image: 'src/assets/images/fullstack/avocado-ecommerce.jpg',
+    image: 'fullstack/avocado-ecommerce.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2020',
     description: 'Web Ecommerce to list avocado products, see product details, add them to the basket, and see surprising facts about avocados (Educational Purposes).'
@@ -292,7 +292,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
     id: 'FS-ceptinel-events',
     title: 'Ceptinel Events',
     subtitle: 'Landing Web',
-    image: 'src/assets/images/fullstack/ceptinel-events.jpg',
+    image: 'fullstack/ceptinel-events.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2020',
     description: 'A simple Landing Web to list, search and filter company events (Testing Purposes).'

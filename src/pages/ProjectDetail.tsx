@@ -1,5 +1,5 @@
 import Button from '@mui/material/Button'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { ALL_DATA } from '../data/allData.ts'
 import Paper from '@mui/material/Paper'
 import Typography from '@mui/material/Typography'
@@ -15,7 +15,17 @@ import Box from '@mui/material/Box'
 export const ProjectDetail = () => {
   const navigate = useNavigate()
 
-  const { title, subtitle, image, area, description, features } = ALL_DATA[40]
+  const { id } = useParams()
+  const project = ALL_DATA.find(item => item.id === id)
+  console.log(project)
+  console.log(id)
+
+  if (project === undefined) {
+    navigate('/')
+    return null
+  }
+
+  const { title, subtitle, image, area, description, features } = project
   const { client, classification, technologies, links, developedIn } = features
 
   const parseLinks = (links: string[][]) => {
@@ -26,7 +36,7 @@ export const ProjectDetail = () => {
         <a href={values[1]} target="_blank" rel="noreferrer">
           {values[0]}
         </a>
-        {!(i === links.length - 1) && ', '}
+        {!(i === links.length - 1) && ' - '}
       </span>
     ))
   }
@@ -69,7 +79,7 @@ export const ProjectDetail = () => {
           <Table aria-label="simple table">
             <TableHead>
               <TableRow>
-                <TableCell>Features</TableCell>
+                <TableCell size='medium' sx={{ fontSize: '1.5rem' }}>Features</TableCell>
                 <TableCell align="left"></TableCell>
               </TableRow>
             </TableHead>
@@ -77,7 +87,7 @@ export const ProjectDetail = () => {
               <TableRow
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
+                <TableCell component="th" scope="row" >
                   Client
                 </TableCell>
                 <TableCell align="left">{client}</TableCell>
@@ -96,7 +106,7 @@ export const ProjectDetail = () => {
                 <TableCell component="th" scope="row">
                   Technologies
                 </TableCell>
-                <TableCell align="left">{technologies?.join(', ')}</TableCell>
+                <TableCell align="left">{technologies?.join(' - ')}</TableCell>
               </TableRow>
               <TableRow
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}

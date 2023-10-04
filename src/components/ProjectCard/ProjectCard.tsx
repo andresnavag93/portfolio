@@ -13,7 +13,7 @@ interface Props {
 }
 
 export const ProjectCard = ({ project, hasLink = true }: Props) => {
-  const { title, subtitle, image } = project
+  const { id, title, subtitle, image } = project
   const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
 
   return (
@@ -33,11 +33,12 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
       </CardContent>
       {hasLink
         ? <CardActions>
-          <NavLink to="/project-detail">
+          <NavLink to={`/project-detail/${id}`}
+          >
             <Button size="small">Learn More</Button>
           </NavLink>
         </CardActions>
         : null}
-    </Card>
+    </Card >
   )
 }

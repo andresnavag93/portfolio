@@ -15,7 +15,7 @@ export const App = () => {
         <Route path='/web-develpment' element={<WebDevelopmentsProjects />} />
         <Route path='/animations' element={<AnimationsProjects />} />
         <Route path='/videogames' element={<VideoGamesProjects />} />
-        <Route path='/project-detail' element={<ProjectDetail />} />
+        <Route path='/project-detail/:id' element={<ProjectDetail />} />
         <Route path='*' element={<p>Not Found</p>} />
       </Routes>
     </HashRouter>

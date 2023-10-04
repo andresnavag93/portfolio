@@ -27,7 +27,7 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
         <CardMedia
           sx={{ height: 250 }}
           image={imgUrl}
-          title="byson"
+          title={title}
         />
         <CardContent>
           {hasLink

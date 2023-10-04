@@ -18,8 +18,6 @@ export const ProjectDetail = () => {
 
   const { id } = useParams()
   const project = ALL_DATA.find(item => item.id === id)
-  console.log(project)
-  console.log(id)
 
   if (project === undefined) {
     navigate('/')
@@ -62,7 +60,7 @@ export const ProjectDetail = () => {
         Back
       </Button>
       <WebTitle title={title} />
-      <Stack sx={{ m: '0 auto', width: '100%', display: 'flex', alignItems: 'center', mt: 5, flexGrow: 1 }}>
+      <Stack sx={{ m: '0 auto', width: '100%', display: 'flex', alignItems: 'center', mt: 10, flexGrow: 1 }}>
         <ProjectCard project={project} hasLink={false} />
       </Stack>
       <Typography variant="h4" sx={{ mt: 5 }}> About this project </Typography>

@@ -9,9 +9,10 @@ import { type Project } from '../../types'
 
 interface Props {
   project: Project
+  hasLink?: boolean
 }
 
-export function ProjectCard ({ project }: Props) {
+export function ProjectCard ({ project, hasLink = true }: Props) {
   const { title, subtitle, image } = project
   const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
 
@@ -30,11 +31,13 @@ export function ProjectCard ({ project }: Props) {
           {subtitle}
         </Typography>
       </CardContent>
-      <CardActions>
+      {hasLink
+        ? <CardActions>
         <NavLink to="/project-detail">
           <Button size="small">Learn More</Button>
         </NavLink>
       </CardActions>
+        : null}
     </Card>
   )
 }

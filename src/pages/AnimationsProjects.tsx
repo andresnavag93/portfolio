@@ -6,7 +6,7 @@ export const AnimationsProjects = () => {
   return (
     <>
       <WebTitle title="3D models - Animations" />
-      <ProjectList projectData={ANIMATIONS_PROJECTS_DATA}/>
+      <ProjectList projectData={ANIMATIONS_PROJECTS_DATA} hasLink={false} />
     </>
   )
 }

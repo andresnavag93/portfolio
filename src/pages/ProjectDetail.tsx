@@ -12,10 +12,11 @@ import { WebTitle } from '../components/WebTitle/WebTitle.tsx'
 import Stack from '@mui/material/Stack'
 import Box from '@mui/material/Box'
 import { ProjectCard } from '../components/ProjectCard/ProjectCard.tsx'
+import { motion } from 'framer-motion'
+// import { useEffect } from 'react'
 
 export const ProjectDetail = () => {
   const navigate = useNavigate()
-
   const { id } = useParams()
   const project = ALL_DATA.find(item => item.id === id)
 
@@ -54,8 +55,9 @@ export const ProjectDetail = () => {
       return null
     }
   }
+  window.scrollTo(0, 0)
   return (
-    <>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <Button onClick={() => { navigate(-1) }} sx={{ position: 'absolute', top: 70, left: 20, color: '#fff' }}>
         Back
       </Button>
@@ -112,6 +114,6 @@ export const ProjectDetail = () => {
           </Table>
         </Box>
       </Box>
-    </>
+    </motion.div>
   )
 }

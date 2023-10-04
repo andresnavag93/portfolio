@@ -58,7 +58,7 @@ export const ProjectDetail = () => {
   }
   return (
     <>
-      <Button onClick={() => { navigate(-1) }} sx={{ position: 'absolute', top: 80, left: 20 }}>
+      <Button onClick={() => { navigate(-1) }} sx={{ position: 'absolute', top: 70, left: 20, color: '#fff' }}>
         Back
       </Button>
       <WebTitle title={title} />

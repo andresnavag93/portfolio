@@ -6,6 +6,7 @@ import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import { NavLink } from 'react-router-dom'
 import { type Project } from '../../types'
+import Atropos from 'atropos/react'
 
 interface Props {
   project: Project
@@ -17,33 +18,39 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
   const imgUrl = new URL(`../../assets/images/${image}`, import.meta.url).href
 
   return (
-    <Card sx={{ width: '100%', maxWidth: 400 }}>
-      <CardMedia
-        sx={{ height: 250 }}
-        image={imgUrl}
-        title="byson"
-      />
-      <CardContent>
-        {hasLink
-          ? <Typography gutterBottom variant="h5" component="div">
-            {title}
-          </Typography>
-          : null}
-        <Typography variant="h6" color="text.secondary">
-          {area.name}: {subtitle}
-        </Typography>
-        <Typography variant="h6" color="text.secondary">
+    <Atropos style={{ width: '100%', maxWidth: 400 }}
+      activeOffset={100}
+      shadowScale={0.5}
+    >
 
-        </Typography>
-      </CardContent>
-      {hasLink
-        ? <CardActions>
-          <NavLink to={`/project-detail/${id}`}
-          >
-            <Button size="small">Learn More</Button>
-          </NavLink>
-        </CardActions>
-        : null}
-    </Card >
+      <Card sx={{ width: '100%', maxWidth: 400 }}>
+        <CardMedia
+          sx={{ height: 250 }}
+          image={imgUrl}
+          title="byson"
+        />
+        <CardContent>
+          {hasLink
+            ? <Typography gutterBottom variant="h5" component="div">
+              {title}
+            </Typography>
+            : null}
+          <Typography variant="h6" color="text.secondary">
+            {subtitle}
+          </Typography>
+          <Typography variant="h6" color="text.secondary">
+            {area.name}
+          </Typography>
+        </CardContent>
+        {hasLink
+          ? <CardActions>
+            <NavLink to={`/project-detail/${id}`}
+            >
+              <Button size="small">Learn More</Button>
+            </NavLink>
+          </CardActions>
+          : null}
+      </Card >
+    </Atropos>
   )
 }

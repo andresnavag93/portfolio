@@ -36,7 +36,7 @@ export const ProjectDetail = () => {
         <a href={values[1]} target="_blank" rel="noreferrer">
           {values[0]}
         </a>
-        {!(i === links.length - 1) && ' - '}
+        {!(i === links.length - 1) && ' • '}
       </span>
     ))
   }
@@ -93,21 +93,21 @@ export const ProjectDetail = () => {
                 </TableCell>
                 <TableCell align="left">{classification}</TableCell>
               </TableRow>
-              <TableRow
-                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-              >
-                <TableCell component="th" scope="row">
-                  Technologies
-                </TableCell>
-                <TableCell align="left">{technologies?.join(' - ')}</TableCell>
-              </TableRow>
-              <TableRow
+              {/* <TableRow
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
                 <TableCell component="th" scope="row">
                   Developed In
                 </TableCell>
                 <TableCell align="left">{developedIn}</TableCell>
+              </TableRow> */}
+              <TableRow
+                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              >
+                <TableCell component="th" scope="row">
+                  Technologies
+                </TableCell>
+                <TableCell align="left">{technologies?.join(' • ')}</TableCell>
               </TableRow>
               {getLinksRow(links)}
             </TableBody>

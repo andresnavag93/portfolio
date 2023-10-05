@@ -57,10 +57,10 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
             </Typography>
             : null}
           <Typography variant="h6" color="text.secondary">
-            {subtitle}
+            {area.name}
           </Typography>
           <Typography variant="h6" color="text.secondary">
-            {area.name}
+            {subtitle}
           </Typography>
         </CardContent>
         {hasLink
@@ -94,10 +94,10 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
             </Typography>
             : null}
           <Typography variant="h6" color="text.secondary">
-            {subtitle}
+            {area.name}
           </Typography>
           <Typography variant="h6" color="text.secondary">
-            {area.name}
+            {subtitle}
           </Typography>
         </CardContent>
         {hasLink

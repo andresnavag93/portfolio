@@ -58,7 +58,7 @@ export const ProjectDetail = () => {
   window.scrollTo(0, 0)
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <Button onClick={() => { navigate(-1) }} sx={{ position: 'absolute', top: 70, left: 20, color: '#fff' }}>
+      <Button onClick={() => { navigate(-1) }} sx={{ position: 'sticky', top: { xs: 80, sm: 100 }, left: { xs: 20, sm: 0 }, color: '#fff', border: 1, backgroundColor: '#0E0E0E' }}>
         Back
       </Button>
       <WebTitle title={title} />

@@ -44,7 +44,7 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
 
   if (width < 768) {
     return (
-      <Card sx={{ width: '100%', maxWidth: 400 }}>
+      <Card sx={{ width: '100%', maxWidth: 400, backgroundColor: '#0E0E0E' }}>
         <CardMedia
           sx={{ height: 250, maxHeight: 400 }}
           image={imgUrl}
@@ -81,7 +81,7 @@ export const ProjectCard = ({ project, hasLink = true }: Props) => {
       shadowScale={0.5}
     >
 
-      <Card sx={{ width: '100%', maxWidth: 400 }}>
+      <Card sx={{ width: '100%', maxWidth: 400, backgroundColor: '#0E0E0E' }}>
         <CardMedia
           sx={{ height: 250, maxHeight: 400 }}
           image={imgUrl}

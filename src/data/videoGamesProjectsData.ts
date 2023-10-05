@@ -2,11 +2,11 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
   {
     id: 'VG-clicker-caper',
     title: 'Clicker Caper',
-    subtitle: 'Idle/Clicker game',
+    subtitle: 'Idle/Clicker',
     image: 'videogames/clicker-caper.png',
     area: { name: 'Videogame', color: 'brown' },
     date: '2022',
-    description: '',
+    description: 'Clicker Caper is an idle/clicker game released in 2022. It is a mobile game where players take on the role of a thief who is trying to pull off a heist. The game is played by clicking on the screen to steal money and other valuables. As players progress through the game, they can unlock new tools and gadgets to help them with their heist. Clicker Caper is a simple game to play, but it can be challenging to master. Players need to carefully manage their resources and make strategic decisions in order to succeed. The game is also very addictive, and players can easily find themselves spending hours playing it. Clicker Caper is a perfect game for those who want a casual and relaxing gaming experience. It is also a great game for those who enjoy the challenge of strategic gameplay.',
     links: [
       ['Demo', 'https://www.youtube.com/watch?v=Xj-hlHuhPiQ'],
       ['iOS', 'https://apps.apple.com/de/app/clicker-caper/id1576421405'],
@@ -16,9 +16,10 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       ]
     ],
     features: {
-      classification: 'Idle/Clicker game',
-      developedIn: 'Gamaga',
-      technologies: ['Unity'],
+      client: 'Gamaga',
+      classification: 'Idle/Clicker',
+      developedIn: 'Gamaga • Kongregate',
+      technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://www.youtube.com/watch?v=Xj-hlHuhPiQ'],
         ['iOS', 'https://apps.apple.com/de/app/clicker-caper/id1576421405'],
@@ -32,18 +33,19 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
   {
     id: 'VG-spinner-ar-multiplayer',
     title: 'Spinner AR Multiplayer',
-    subtitle: 'Online Multiplayer Game',
+    subtitle: 'Online Multiplayer',
     image: 'videogames/spinner-ar-multiplayer.png',
     area: { name: 'Augmented Reality', color: 'blue' },
     date: '2020',
-    description: '',
+    description: 'Spinner AR Multiplayer is an online multiplayer augmented reality (AR) game. It is a fighting game where players use AR spinners to battle each other. The game is played by scanning the real world around you to place your spinner in the AR environment. Once your spinner is placed, you can use various techniques to try to knock out your opponent \'s spinner. Spinner AR Multiplayer is a unique and innovative game that takes advantage of the power of AR to create a truly immersive gaming experience. The game is also very social, as it allows you to play against friends and other players from around the world.',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
       ['Github', 'https://github.com/andresnavag93/spinner-ar-multiplayer']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Fighting',
-      technologies: ['Unity 3D', 'ARcore', 'AR Foundation', 'Photon'],
+      technologies: ['Unity', 'C#', 'ARcore', 'AR Foundation', 'Photon'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
         ['Github', 'https://github.com/andresnavag93/spinner-ar-multiplayer']
@@ -53,18 +55,19 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
   {
     id: 'VG-space-invasion',
     title: 'Space Invasion',
-    subtitle: 'Shooting game',
+    subtitle: 'Shooting',
     image: 'videogames/space-invasion.png',
     area: { name: 'Videogame', color: 'brown' },
     date: '2020',
-    description: '',
+    description: 'Space Invasion is a 2D shooting game. It is a side-scrolling game where players control a spaceship and must shoot down waves of incoming enemies. The game is played by moving the spaceship around the screen and firing at the enemies. Space Invasion is a simple but challenging game that is perfect for players of all ages. The game is also very addictive, and players can easily find themselves spending hours playing it.',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
       ['Github', 'https://github.com/andresnavag93/2D-shooter']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Shooter',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
         ['Github', 'https://github.com/andresnavag93/2D-shooter']
@@ -74,7 +77,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
   {
     id: 'VG-mercantil-ar-corp',
     title: 'Mercantil AR Corp',
-    subtitle: 'Photo Studio Entertainment System',
+    subtitle: 'Photo Studio Entertainment',
     image: 'videogames/mercantil-ar-corp.jpg',
     area: { name: 'Augmented Reality', color: 'blue' },
     date: '2020',
@@ -84,10 +87,10 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       ['Video Clip 2', 'https://youtu.be/87sRm0qtapk']
     ],
     features: {
-      client: 'Mercantil National Bank',
+      client: 'Mercantil National Bank • Wayu Inc.',
       classification: 'Entertainment',
       developedIn: 'Wayu Inc.',
-      technologies: ['Unity 3D', 'Vuforia'],
+      technologies: ['Unity', 'Vuforia'],
       links: [
         ['Video Clip 1', 'https://youtu.be/hP2hq6sWbeQ'],
         ['Video Clip 2', 'https://youtu.be/87sRm0qtapk']
@@ -97,7 +100,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
   {
     id: 'VG-wayu-dash',
     title: 'Wayu Dash',
-    subtitle: 'Mobile Game',
+    subtitle: 'Mobile',
     image: 'videogames/wayu-dash.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2019',
@@ -110,7 +113,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       client: 'Wayu Inc.',
       classification: 'Plataformer',
       developedIn: 'Wayu Inc.',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/wayu-dash'],
         ['Video Clip', 'https://youtu.be/20s160Zu9Tk']
@@ -126,11 +129,11 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     area: { name: 'Augmented Reality', color: 'blue' },
     description: `A mobile game with augmented reality that allows children under
         5 years old to count the numbers, how to trace and write, associations with the
-        same numbers of fruits, adds and subtracts (Education Purposes).`,
+        same numbers of fruits, adds and subtracts .`,
     links: [['Video Clip', 'https://youtu.be/slQDzWXIMT0']],
     features: {
       classification: 'Education',
-      technologies: ['Unity 3D', 'Vuforia'],
+      technologies: ['Unity', 'C#', 'Vuforia'],
       links: [['Video Clip', 'https://youtu.be/slQDzWXIMT0']]
     }
   },
@@ -143,15 +146,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2018',
     description: `3D video game that consists of collecting a certain amount of
         coins depending on the level andavoiding or dodging the animated blocks so
-        they don't destroy you (Education Purposes).`,
+        they don't destroy you .`,
     links: [
       ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
       ['Video Clip', 'https://youtu.be/ncf9bPmcjB0'],
       ['Github', 'https://github.com/andresnavag93/roller-madness']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Puzzle',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
         ['Video Clip', 'https://youtu.be/ncf9bPmcjB0'],
@@ -166,14 +170,15 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/box-shooter.jpg',
     date: '2018',
     area: { name: 'Video Game', color: 'brown' },
-    description: '3D video game consisting of earning points by shooting different cubes in a limited time. The yellow ones take away time, the white ones add time and the green ones add points (Education Purposes)',
+    description: '3D video game consisting of earning points by shooting different cubes in a limited time. The yellow ones take away time, the white ones add time and the green ones add points ',
     links: [
       ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
       ['Github', 'https://github.com/andresnavag93/box-shooter']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Puzzle',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
       links: [
         ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
         ['Github', 'https://github.com/andresnavag93/box-shooter']
@@ -184,14 +189,15 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-awesome-runner',
     date: '2020',
     title: 'Awesome Runner',
-    subtitle: 'Mobile Game',
+    subtitle: 'Mobile',
     image: 'videogames/awesome-runner.jpg',
     area: { name: 'Video Game', color: 'brown' },
-    description: '3D platform game where a frog spaceman runs endless through a city, jumping platforms and avoiding enemies (Education Purposes).',
+    description: '3D platform game where a frog spaceman runs endless through a city, jumping platforms and avoiding enemies .',
     links: [['Github', 'https://github.com/andresnavag93/awesome-runner']],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Platformer',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
 
       links: [['Github', 'https://github.com/andresnavag93/awesome-runner']]
     }
@@ -211,7 +217,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       client: 'Wayu Inc.',
       classification: 'Services',
       developedIn: 'Wayu Inc.',
-      technologies: ['Unity 3D', 'Vuforia', 'Blender 3D'],
+      technologies: ['Unity', 'Vuforia', 'Blender 3D'],
       links: [['Video Clip', 'https://youtu.be/csGzL_KCKqA']]
     }
   },
@@ -225,28 +231,29 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     links: [['Video Clip', 'https://youtu.be/yNReXfp_ugc']],
     description: 'Christmas Mobile app with Augmented Reality for Mercantil Bank clients. This app allows taking pictures with different 3D animated characters and sharing them on social networks. In addition, it has additional functionalities where the character can be moved, rotated, and scaled in space according to how you want it to appear in the photo.',
     features: {
-      client: 'Mercantil National Bank',
+      client: 'Mercantil National Bank • Freelance',
       classification: 'Entertainment',
       developedIn: 'Wayu Inc.',
-      technologies: ['Unity 3D', 'Vuforia'],
+      technologies: ['Unity', 'Vuforia'],
       links: [['Video Clip', 'https://youtu.be/yNReXfp_ugc']]
     }
   },
   {
     id: 'VG-space-man',
     title: 'Space Man Run',
-    subtitle: 'Mobile Game',
+    subtitle: 'Mobile',
     image: 'videogames/space-man.jpg',
     date: '2021',
     area: { name: 'Video Game', color: 'brown' },
-    description: '2D platform game where a spaceman runs endless grabbing coins and avoiding enemies (Education Purposes).',
+    description: '2D platform game where a spaceman runs endless grabbing coins and avoiding enemies .',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-man'],
       ['Github', 'https://github.com/andresnavag93/space-man']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Platformer',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
 
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-man'],
@@ -262,20 +269,21 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     area: { name: 'Video Game', color: 'brown' },
     date: '2019',
     description: `A 2D platform video game that consists of advancing
-        different levels by winning coins and defeating different enemies (Education Purposes).`,
+        different levels by winning coins and defeating different enemies .`,
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-platform'],
       ['Video Clip', 'https://youtu.be/JXZgZYYRIi4'],
       ['Github', 'https://github.com/andresnavag93/world-platfom']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Platformer',
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-platform'],
         ['Video Clip', 'https://youtu.be/JXZgZYYRIi4'],
         ['Github', 'https://github.com/andresnavag93/world-platfom']
       ],
-      technologies: ['Unity 3D']
+      technologies: ['Unity', 'C#']
 
     }
   },
@@ -286,15 +294,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/ping-pong.jpg',
     area: { name: 'Video Game', color: 'brown' },
     date: '2019',
-    description: '2D video game of the classic pong table game (Education Purposes).',
+    description: '2D video game of the classic pong table game .',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
       ['Video Clip', 'https://youtu.be/CmOeeDw1sSs'],
       ['Github', 'https://github.com/andresnavag93/classic-pong']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Sports',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
         ['Video Clip', 'https://youtu.be/CmOeeDw1sSs'],
@@ -313,11 +322,12 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
         augmented reality using different animal marks. It consists of seeing the animals
         in 3D, and once any pair of cards is discovered, the app shows an animation
         corresponding to the animal paired. There are pairs of cats, tigers, horses,
-        lizards, and rhinos (Education Purposes).`,
+        lizards, and rhinos .`,
     links: [['Video Clip', 'https://youtu.be/Kgtr5BIKgy8']],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Education / Entertainment',
-      technologies: ['Unity 3D', 'Vuforia'],
+      technologies: ['Unity', 'Vuforia'],
       links: [['Video Clip', 'https://youtu.be/Kgtr5BIKgy8']]
     }
   },
@@ -330,15 +340,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2018',
     description: `Desktop video game consisting of collecting coins, passing
         through tunnels, and overcoming ordodging animated obstacles/animals through
-        three different worlds of ice, desert, and fire, to reach the finalgoal (Education Purposes).`,
+        three different worlds of ice, desert, and fire, to reach the finalgoal .`,
     links: [
       ['Demo', 'https://andresnavag93.itch.io/solar-system'],
       ['Video Clip', 'https://youtu.be/7jwhCgYkmT8'],
       ['Github', 'https://github.com/andresnavag93/solar-system']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Simulation',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/solar-system'],
         ['Video Clip', 'https://youtu.be/7jwhCgYkmT8'],
@@ -355,14 +366,15 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     area: { name: 'Video Game', color: 'brown' },
     description: `Desktop video game consisting of collecting coins, passing
         through tunnels, and overcoming or dodging animated obstacles/animals through
-        three different worlds of ice, desert, and fire, to reach the final goal (Education Purposes).`,
+        three different worlds of ice, desert, and fire, to reach the final goal .`,
     links: [
       ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
       ['Github', 'https://github.com/andresnavag93/star-wars']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Platformer',
-      technologies: ['Unity 3D', 'Maya'],
+      technologies: ['Unity', 'Maya'],
       links: [
         ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
         ['Github', 'https://github.com/andresnavag93/star-wars']
@@ -372,18 +384,19 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
   {
     id: 'VG-puzzle-ball',
     title: 'Puzzle Ball',
-    subtitle: 'Mobile Game',
+    subtitle: 'Mobile',
     image: 'videogames/puzzle-ball.jpg',
     date: '2020',
     area: { name: 'Video Game', color: 'brown' },
-    description: '3D puzzle levels (Education Purposes).',
+    description: '3D puzzle levels .',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
       ['Github', 'https://github.com/andresnavag93/puzzle-ball']
     ],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Puzzle',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
 
       links: [
         ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
@@ -395,14 +408,15 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     id: 'VG-zigzag-ball',
     date: '2020',
     title: 'ZigZag Ball',
-    subtitle: 'Mobile Game',
+    subtitle: 'Mobile',
     image: 'videogames/zigzag-ball.jpg',
     area: { name: 'Video Game', color: 'brown' },
-    description: '3D platform game where a ball rolls endless through falling platforms(Education Purposes).',
+    description: '3D platform game where a ball rolls endless through falling platforms.',
     links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']],
     features: {
+      client: 'Side Project • Freelance',
       classification: 'Platformer',
-      technologies: ['Unity 3D'],
+      technologies: ['Unity', 'C#'],
 
       links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']]
     }

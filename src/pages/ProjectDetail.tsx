@@ -26,7 +26,7 @@ export const ProjectDetail = () => {
   }
 
   const { title, description, features } = project
-  const { client, classification, technologies, links, developedIn } = features
+  const { client, classification, technologies, links } = features
 
   const parseLinks = (links: string[][]) => {
     if (links.length <= 0) return null

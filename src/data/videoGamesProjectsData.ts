@@ -4,7 +4,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     title: 'Clicker Caper',
     subtitle: 'Idle/Clicker',
     image: 'videogames/clicker-caper.png',
-    area: { name: 'Videogame', color: 'brown' },
+    area: { name: 'Video Game', color: 'brown' },
     date: '2022',
     description: 'Clicker Caper is an idle/clicker game released in 2022. It is a mobile game where players take on the role of a thief who is trying to pull off a heist. The game is played by clicking on the screen to steal money and other valuables. As players progress through the game, they can unlock new tools and gadgets to help them with their heist. Clicker Caper is a simple game to play, but it can be challenging to master. Players need to carefully manage their resources and make strategic decisions in order to succeed. The game is also very addictive, and players can easily find themselves spending hours playing it. Clicker Caper is a perfect game for those who want a casual and relaxing gaming experience. It is also a great game for those who enjoy the challenge of strategic gameplay.',
     links: [
@@ -57,7 +57,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     title: 'Space Invasion',
     subtitle: 'Shooting',
     image: 'videogames/space-invasion.png',
-    area: { name: 'Videogame', color: 'brown' },
+    area: { name: 'Video Game', color: 'brown' },
     date: '2020',
     description: 'Space Invasion is a 2D shooting game. It is a side-scrolling game where players control a spaceship and must shoot down waves of incoming enemies. The game is played by moving the spaceship around the screen and firing at the enemies. Space Invasion is a simple but challenging game that is perfect for players of all ages. The game is also very addictive, and players can easily find themselves spending hours playing it.',
     links: [

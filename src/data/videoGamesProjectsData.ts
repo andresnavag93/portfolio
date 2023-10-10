@@ -40,7 +40,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     description: 'Spinner AR Multiplayer is an online multiplayer augmented reality (AR) game. It is a fighting game where players use AR spinners to battle each other. The game is played by scanning the real world around you to place your spinner in the AR environment. Once your spinner is placed, you can use various techniques to try to knock out your opponent \'s spinner. Spinner AR Multiplayer is a unique and innovative game that takes advantage of the power of AR to create a truly immersive gaming experience. The game is also very social, as it allows you to play against friends and other players from around the world.',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -48,7 +48,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#', 'ARcore', 'AR Foundation', 'Photon'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -62,7 +62,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     description: 'Space Invasion is a 2D shooting game. It is a side-scrolling game where players control a spaceship and must shoot down waves of incoming enemies. The game is played by moving the spaceship around the screen and firing at the enemies. Space Invasion is a simple but challenging game that is perfect for players of all ages. The game is also very addictive, and players can easily find themselves spending hours playing it.',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -70,7 +70,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -108,7 +108,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     links: [
       ['Demo', 'https://andresnavag93.itch.io/wayu-dash'],
       ['Video Clip', 'https://youtu.be/20s160Zu9Tk'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Wayu Inc.',
@@ -118,7 +118,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       links: [
         ['Demo', 'https://andresnavag93.itch.io/wayu-dash'],
         ['Video Clip', 'https://youtu.be/20s160Zu9Tk'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -152,7 +152,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     links: [
       ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
       ['Video Clip', 'https://youtu.be/ncf9bPmcjB0'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -161,7 +161,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       links: [
         ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
         ['Video Clip', 'https://youtu.be/ncf9bPmcjB0'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -175,7 +175,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     description: '3D video game consisting of earning points by shooting different cubes in a limited time. The yellow ones take away time, the white ones add time and the green ones add points ',
     links: [
       ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -183,7 +183,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
       links: [
         ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -195,13 +195,13 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/awesome-runner.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a frog spaceman runs endless through a city, jumping platforms and avoiding enemies .',
-    links: [['Github', 'https://github.com/andresnavag93/unity-projects']],
+    links: [['GitHub', 'https://github.com/andresnavag93/unity-projects']],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
       technologies: ['Unity', 'C#'],
 
-      links: [['Github', 'https://github.com/andresnavag93/unity-projects']]
+      links: [['GitHub', 'https://github.com/andresnavag93/unity-projects']]
     }
   },
   {
@@ -250,7 +250,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     description: '2D platform game where a spaceman runs endless grabbing coins and avoiding enemies .',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-man'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -259,7 +259,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
 
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-man'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -275,7 +275,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-platform'],
       ['Video Clip', 'https://youtu.be/JXZgZYYRIi4'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -283,7 +283,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-platform'],
         ['Video Clip', 'https://youtu.be/JXZgZYYRIi4'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ],
       technologies: ['Unity', 'C#']
 
@@ -300,7 +300,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     links: [
       ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
       ['Video Clip', 'https://youtu.be/CmOeeDw1sSs'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -309,7 +309,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       links: [
         ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
         ['Video Clip', 'https://youtu.be/CmOeeDw1sSs'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -346,7 +346,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     links: [
       ['Demo', 'https://andresnavag93.itch.io/solar-system'],
       ['Video Clip', 'https://youtu.be/7jwhCgYkmT8'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -355,7 +355,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       links: [
         ['Demo', 'https://andresnavag93.itch.io/solar-system'],
         ['Video Clip', 'https://youtu.be/7jwhCgYkmT8'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -371,7 +371,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
         three different worlds of ice, desert, and fire, to reach the final goal .`,
     links: [
       ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -379,7 +379,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'Maya'],
       links: [
         ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -393,7 +393,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     description: '3D puzzle levels .',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
-      ['Github', 'https://github.com/andresnavag93/unity-projects']
+      ['GitHub', 'https://github.com/andresnavag93/unity-projects']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -402,7 +402,7 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
 
       links: [
         ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
-        ['Github', 'https://github.com/andresnavag93/unity-projects']
+        ['GitHub', 'https://github.com/andresnavag93/unity-projects']
       ]
     }
   },
@@ -414,13 +414,13 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/zigzag-ball.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a ball rolls endless through falling platforms.',
-    links: [['Github', 'https://github.com/andresnavag93/unity-projects']],
+    links: [['GitHub', 'https://github.com/andresnavag93/unity-projects']],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
       technologies: ['Unity', 'C#'],
 
-      links: [['Github', 'https://github.com/andresnavag93/unity-projects']]
+      links: [['GitHub', 'https://github.com/andresnavag93/unity-projects']]
     }
   }
 ]

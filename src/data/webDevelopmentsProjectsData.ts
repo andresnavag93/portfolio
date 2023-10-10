@@ -74,7 +74,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
         'Redux',
         'Styled Components'
       ],
-      links: [['Github', 'https://github.com/andresnavag93/marvel-world'], ['Web', 'https://andresnavag93-marvel-world.netlify.app/']]
+      links: [['GitHub', 'https://github.com/andresnavag93/marvel-world'], ['Web', 'https://andresnavag93-marvel-world.netlify.app/']]
     }
   },
   {
@@ -91,7 +91,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Education & Tutorials',
       technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Webpack', 'AWS'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/nativapps-tutorials'],
+        ['GitHub', 'https://github.com/andresnavag93/nativapps-tutorials'],
         ['Web', 'https://andresnavag93.github.io/nativapps-tutorials/']
       ]
     }
@@ -131,7 +131,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       developedIn: 'Wayu Inc.',
       technologies: ['JavaScript', 'React.js', 'HTML', 'CSS', 'PWA'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/mexico-wayuinc'],
+        ['GitHub', 'https://github.com/andresnavag93/mexico-wayuinc'],
         ['Web', 'https://andresnavag93.github.io/mexico-wayuinc']
       ]
     }
@@ -150,7 +150,8 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       developedIn: 'Wayu Inc.',
       technologies: ['Ruby on Rails', 'PostgreSQL', 'AWS'],
       links: [
-        ['Web', 'http://test-slon-care.s3-website.us-east-2.amazonaws.com/']
+        ['Web', 'http://test-slon-care.s3-website.us-east-2.amazonaws.com/'],
+        ['GitHub', 'https://github.com/andresnavag93/sloncare-api']
       ]
     }
   },
@@ -192,7 +193,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Website - Videogame',
       technologies: ['HTML', 'JavaScript', 'CSS'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/mokepon'],
+        ['GitHub', 'https://github.com/andresnavag93/mokepon'],
         ['Web', 'https://andresnavag93.github.io/mokepon/']
       ]
     }
@@ -210,7 +211,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Gym, Health & Wellness',
       developedIn: 'Wayu Inc.',
       technologies: ['Node.js', 'PostgreSQL', 'AWS', 'Express'],
-      links: [['Web', 'http://test-bison.s3-website-us-east-1.amazonaws.com']]
+      links: [['Web', 'http://test-bison.s3-website-us-east-1.amazonaws.com'], ['GitHub', 'https://github.com/andresnavag93/bison-gym-api']]
     }
   },
   {
@@ -257,7 +258,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Gifs',
       technologies: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/giffy'],
+        ['GitHub', 'https://github.com/andresnavag93/giffy'],
         ['Web', 'https://giffy-pi.vercel.app/']
       ]
     }
@@ -275,7 +276,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Website',
       technologies: ['HTML', 'JavaScript', 'CSS'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/google-clone'],
+        ['GitHub', 'https://github.com/andresnavag93/google-clone'],
         ['Web', 'https://andresnavag93.github.io/google-clone/']
       ]
     }
@@ -293,7 +294,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Ecommerce',
       technologies: ['Next.js', 'Semantic-UI', 'HTML', 'TypeScript', 'CSS'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/avocado-ecommerce'],
+        ['GitHub', 'https://github.com/andresnavag93/avocado-ecommerce'],
         ['Web', 'https://avocado-ecommerce.vercel.app/']
       ]
     }
@@ -311,7 +312,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Events List',
       technologies: ['React.js', 'Webpack', 'Redux', 'Material-Table', 'HTML', 'CSS'],
       links: [
-        ['Github', 'https://github.com/andresnavag93/ceptinel-events'],
+        ['GitHub', 'https://github.com/andresnavag93/ceptinel-events'],
         ['Web', 'https://andresnavag93.github.io/ceptinel-events/index.html']
       ]
     }

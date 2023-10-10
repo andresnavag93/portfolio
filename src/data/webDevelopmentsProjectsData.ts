@@ -17,12 +17,12 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
   },
   {
     id: 'FS-walmart-cill',
-    title: 'Walmart (Cill)',
+    title: 'Walmart (CILL)',
     subtitle: 'Websystem',
     image: 'fullstack/walmart-cill.jpg',
     area: { name: 'Front-End', color: 'blue' },
     date: '2021',
-    description: 'The Walmart (Cill) Websystem is a system dedicated to internal error handling at Walmart. The system includes an advanced search, a complete list of errors, a detailed error view, error filters and attributes, and a help page. The system is designed to be easy to use and navigate, and it provides Walmart employees with all the tools they need to quickly and efficiently identify and resolve errors. The system helps Walmart employees to quickly and efficiently identify and resolve errors, reduces the time and effort required to handle errors, and improves the overall efficiency of Walmart\'s operations. The system is especially useful for IT support staff, customer service representatives, and other employees who need to be able to quickly and efficiently identify and resolve errors',
+    description: 'The Walmart (CILL) Websystem is a system dedicated to internal error handling at Walmart. The system includes an advanced search, a complete list of errors, a detailed error view, error filters and attributes, and a help page. The system is designed to be easy to use and navigate, and it provides Walmart employees with all the tools they need to quickly and efficiently identify and resolve errors. The system helps Walmart employees to quickly and efficiently identify and resolve errors, reduces the time and effort required to handle errors, and improves the overall efficiency of Walmart\'s operations. The system is especially useful for IT support staff, customer service representatives, and other employees who need to be able to quickly and efficiently identify and resolve errors',
     features: {
       client: 'Walmart • Applaudo',
       classification: 'Error Processing System',

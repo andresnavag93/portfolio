@@ -55,10 +55,11 @@ export const ProjectDetail = () => {
       return null
     }
   }
+
   window.scrollTo(0, 0)
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <Button onClick={() => { navigate(-1) }} sx={{ position: 'sticky', top: { xs: 80, sm: 100 }, left: { xs: 20, sm: 0 }, color: '#fff', border: 1, backgroundColor: '#0E0E0E' }}>
+      <Button onClick={() => { navigate(-1) }} sx={{ position: 'sticky', top: { xs: 80, sm: 100 }, left: { xs: 20, sm: 0 }, zIndex: 1, color: '#fff', border: 1, backgroundColor: '#0E0E0E', ':hover': { backgroundColor: '#0E0E0E' } }}>
         Back
       </Button>
       <WebTitle title={title} />
@@ -66,7 +67,7 @@ export const ProjectDetail = () => {
         <ProjectCard project={project} hasLink={false} />
       </Stack>
       <Typography variant="h4" sx={{ mt: 5 }}> About this project </Typography>
-      <Typography sx={{ width: '100%', maxWidth: '700px', mt: 3 }}> {description} </Typography>
+      <Typography sx={{ width: '100%', maxWidth: '700px', mt: 3, textAlign: 'justify' }}> {description} </Typography>
       <Box sx={{ overflow: 'auto', mt: 5 }} component={Paper}>
         <Box sx={{ width: '100%', maxWidth: '700px', display: 'table', tableLayout: 'fixed' }}>
           <Table aria-label="simple table">

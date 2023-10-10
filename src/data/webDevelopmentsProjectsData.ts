@@ -112,7 +112,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       links: [
         [
           'Web',
-          'http://test.wayuinc-webpage.s3-website-us-east-1.amazonaws.com'
+          'https://wayuinc.netlify.app/'
         ]
       ]
     }
@@ -150,7 +150,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       developedIn: 'Wayu Inc.',
       technologies: ['Ruby on Rails', 'PostgreSQL', 'AWS'],
       links: [
-        ['Web', 'http://test-slon-care.s3-website.us-east-2.amazonaws.com/'],
+        ['Web', 'https://sloncare.netlify.app/'],
         ['GitHub', 'https://github.com/andresnavag93/sloncare-api']
       ]
     }
@@ -211,7 +211,7 @@ export const WEB_DEVELOPMENTS_PROJECTS_DATA = [
       classification: 'Gym, Health & Wellness',
       developedIn: 'Wayu Inc.',
       technologies: ['Node.js', 'PostgreSQL', 'AWS', 'Express'],
-      links: [['Web', 'http://test-bison.s3-website-us-east-1.amazonaws.com'], ['GitHub', 'https://github.com/andresnavag93/bison-gym-api']]
+      links: [['Web', 'https://bison-gym.netlify.app/'], ['GitHub', 'https://github.com/andresnavag93/bison-gym-api']]
     }
   },
   {

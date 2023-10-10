@@ -39,16 +39,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2020',
     description: 'Spinner AR Multiplayer is an online multiplayer augmented reality (AR) game. It is a fighting game where players use AR spinners to battle each other. The game is played by scanning the real world around you to place your spinner in the AR environment. Once your spinner is placed, you can use various techniques to try to knock out your opponent \'s spinner. Spinner AR Multiplayer is a unique and innovative game that takes advantage of the power of AR to create a truly immersive gaming experience. The game is also very social, as it allows you to play against friends and other players from around the world.',
     links: [
-      ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer']
-      // ['Github', 'https://github.com/andresnavag93/spinner-ar-multiplayer']
+      ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
+      ['Github', 'https://github.com/andresnavag93/spinner-ar-multiplayer']
     ],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Fighting',
       technologies: ['Unity', 'C#', 'ARcore', 'AR Foundation', 'Photon'],
       links: [
-        ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer']
-        // ['Github', 'https://github.com/andresnavag93/spinner-ar-multiplayer']
+        ['Demo', 'https://andresnavag93.itch.io/spinner-multiplayer'],
+        ['Github', 'https://github.com/andresnavag93/spinner-ar-multiplayer']
       ]
     }
   },
@@ -61,16 +61,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     date: '2020',
     description: 'Space Invasion is a 2D shooting game. It is a side-scrolling game where players control a spaceship and must shoot down waves of incoming enemies. The game is played by moving the spaceship around the screen and firing at the enemies. Space Invasion is a simple but challenging game that is perfect for players of all ages. The game is also very addictive, and players can easily find themselves spending hours playing it.',
     links: [
-      ['Demo', 'https://andresnavag93.itch.io/space-invasion']
-      // ['Github', 'https://github.com/andresnavag93/2D-shooter']
+      ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
+      ['Github', 'https://github.com/andresnavag93/2D-shooter']
     ],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Shooter',
       technologies: ['Unity', 'C#'],
       links: [
-        ['Demo', 'https://andresnavag93.itch.io/space-invasion']
-        // ['Github', 'https://github.com/andresnavag93/2D-shooter']
+        ['Demo', 'https://andresnavag93.itch.io/space-invasion'],
+        ['Github', 'https://github.com/andresnavag93/2D-shooter']
       ]
     }
   },
@@ -149,8 +149,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
         they don't destroy you .`,
     links: [
       ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
-      ['Video Clip', 'https://youtu.be/ncf9bPmcjB0']
-      // ['Github', 'https://github.com/andresnavag93/roller-madness']
+      ['Video Clip', 'https://youtu.be/ncf9bPmcjB0'],
+      ['Github', 'https://github.com/andresnavag93/roller-madness']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -158,8 +158,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/roller-madness'],
-        ['Video Clip', 'https://youtu.be/ncf9bPmcjB0']
-        // ['Github', 'https://github.com/andresnavag93/roller-madness']
+        ['Video Clip', 'https://youtu.be/ncf9bPmcjB0'],
+        ['Github', 'https://github.com/andresnavag93/roller-madness']
       ]
     }
   },
@@ -172,16 +172,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     area: { name: 'Video Game', color: 'brown' },
     description: '3D video game consisting of earning points by shooting different cubes in a limited time. The yellow ones take away time, the white ones add time and the green ones add points ',
     links: [
-      ['Video Clip', 'https://youtu.be/NrT9TLQ41uY']
-      // ['Github', 'https://github.com/andresnavag93/box-shooter']
+      ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
+      ['Github', 'https://github.com/andresnavag93/box-shooter']
     ],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Puzzle',
       technologies: ['Unity', 'C#'],
       links: [
-        ['Video Clip', 'https://youtu.be/NrT9TLQ41uY']
-        // ['Github', 'https://github.com/andresnavag93/box-shooter']
+        ['Video Clip', 'https://youtu.be/NrT9TLQ41uY'],
+        ['Github', 'https://github.com/andresnavag93/box-shooter']
       ]
     }
   },
@@ -193,13 +193,13 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/awesome-runner.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a frog spaceman runs endless through a city, jumping platforms and avoiding enemies .',
-    // links: [['Github', 'https://github.com/andresnavag93/awesome-runner']],
+    links: [['Github', 'https://github.com/andresnavag93/awesome-runner']],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
-      technologies: ['Unity', 'C#']
+      technologies: ['Unity', 'C#'],
 
-      // links: [['Github', 'https://github.com/andresnavag93/awesome-runner']]
+      links: [['Github', 'https://github.com/andresnavag93/awesome-runner']]
     }
   },
   {
@@ -247,8 +247,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     area: { name: 'Video Game', color: 'brown' },
     description: '2D platform game where a spaceman runs endless grabbing coins and avoiding enemies .',
     links: [
-      ['Demo', 'https://andresnavag93.itch.io/space-man']
-      // ['Github', 'https://github.com/andresnavag93/space-man']
+      ['Demo', 'https://andresnavag93.itch.io/space-man'],
+      ['Github', 'https://github.com/andresnavag93/space-man']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -256,8 +256,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
 
       links: [
-        ['Demo', 'https://andresnavag93.itch.io/space-man']
-        // ['Github', 'https://github.com/andresnavag93/space-man']
+        ['Demo', 'https://andresnavag93.itch.io/space-man'],
+        ['Github', 'https://github.com/andresnavag93/space-man']
       ]
     }
   },
@@ -272,16 +272,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
         different levels by winning coins and defeating different enemies .`,
     links: [
       ['Demo', 'https://andresnavag93.itch.io/space-platform'],
-      ['Video Clip', 'https://youtu.be/JXZgZYYRIi4']
-      // ['Github', 'https://github.com/andresnavag93/world-platfom']
+      ['Video Clip', 'https://youtu.be/JXZgZYYRIi4'],
+      ['Github', 'https://github.com/andresnavag93/world-platfom']
     ],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
       links: [
         ['Demo', 'https://andresnavag93.itch.io/space-platform'],
-        ['Video Clip', 'https://youtu.be/JXZgZYYRIi4']
-        // ['Github', 'https://github.com/andresnavag93/world-platfom']
+        ['Video Clip', 'https://youtu.be/JXZgZYYRIi4'],
+        ['Github', 'https://github.com/andresnavag93/world-platfom']
       ],
       technologies: ['Unity', 'C#']
 
@@ -297,8 +297,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     description: '2D video game of the classic pong table game .',
     links: [
       ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
-      ['Video Clip', 'https://youtu.be/CmOeeDw1sSs']
-      // ['Github', 'https://github.com/andresnavag93/classic-pong']
+      ['Video Clip', 'https://youtu.be/CmOeeDw1sSs'],
+      ['Github', 'https://github.com/andresnavag93/classic-pong']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -306,8 +306,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/classic-pong'],
-        ['Video Clip', 'https://youtu.be/CmOeeDw1sSs']
-        // ['Github', 'https://github.com/andresnavag93/classic-pong']
+        ['Video Clip', 'https://youtu.be/CmOeeDw1sSs'],
+        ['Github', 'https://github.com/andresnavag93/classic-pong']
       ]
     }
   },
@@ -343,8 +343,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
         three different worlds of ice, desert, and fire, to reach the finalgoal .`,
     links: [
       ['Demo', 'https://andresnavag93.itch.io/solar-system'],
-      ['Video Clip', 'https://youtu.be/7jwhCgYkmT8']
-      // ['Github', 'https://github.com/andresnavag93/solar-system']
+      ['Video Clip', 'https://youtu.be/7jwhCgYkmT8'],
+      ['Github', 'https://github.com/andresnavag93/solar-system']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -352,8 +352,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
       links: [
         ['Demo', 'https://andresnavag93.itch.io/solar-system'],
-        ['Video Clip', 'https://youtu.be/7jwhCgYkmT8']
-        // ['Github', 'https://github.com/andresnavag93/solar-system']
+        ['Video Clip', 'https://youtu.be/7jwhCgYkmT8'],
+        ['Github', 'https://github.com/andresnavag93/solar-system']
       ]
     }
   },
@@ -368,16 +368,16 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
         through tunnels, and overcoming or dodging animated obstacles/animals through
         three different worlds of ice, desert, and fire, to reach the final goal .`,
     links: [
-      ['Video Clip', 'https://youtu.be/j0jVuYq4nSk']
-      // ['Github', 'https://github.com/andresnavag93/star-wars']
+      ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
+      ['Github', 'https://github.com/andresnavag93/star-wars']
     ],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
       technologies: ['Unity', 'Maya'],
       links: [
-        ['Video Clip', 'https://youtu.be/j0jVuYq4nSk']
-        // ['Github', 'https://github.com/andresnavag93/star-wars']
+        ['Video Clip', 'https://youtu.be/j0jVuYq4nSk'],
+        ['Github', 'https://github.com/andresnavag93/star-wars']
       ]
     }
   },
@@ -390,8 +390,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     area: { name: 'Video Game', color: 'brown' },
     description: '3D puzzle levels .',
     links: [
-      ['Demo', 'https://andresnavag93.itch.io/puzzle-ball']
-      // ['Github', 'https://github.com/andresnavag93/puzzle-ball']
+      ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
+      ['Github', 'https://github.com/andresnavag93/puzzle-ball']
     ],
     features: {
       client: 'Side Project • Freelance',
@@ -399,8 +399,8 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
       technologies: ['Unity', 'C#'],
 
       links: [
-        ['Demo', 'https://andresnavag93.itch.io/puzzle-ball']
-        // ['Github', 'https://github.com/andresnavag93/puzzle-ball']
+        ['Demo', 'https://andresnavag93.itch.io/puzzle-ball'],
+        ['Github', 'https://github.com/andresnavag93/puzzle-ball']
       ]
     }
   },
@@ -412,13 +412,13 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/zigzag-ball.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a ball rolls endless through falling platforms.',
-    // links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']],
+    links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
-      technologies: ['Unity', 'C#']
+      technologies: ['Unity', 'C#'],
 
-      // links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']]
+      links: [['Github', 'https://github.com/andresnavag93/zigzag-ball']]
     }
   }
 ]

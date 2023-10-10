@@ -195,13 +195,13 @@ export const VIDEO_GAMES_PROJECTS_DATA = [
     image: 'videogames/awesome-runner.jpg',
     area: { name: 'Video Game', color: 'brown' },
     description: '3D platform game where a frog spaceman runs endless through a city, jumping platforms and avoiding enemies .',
-    links: [['Github', 'https://github.com/andresnavag93/awesome-runner']],
+    links: [['Github', 'https://github.com/andresnavag93/unity-projects']],
     features: {
       client: 'Side Project • Freelance',
       classification: 'Platformer',
       technologies: ['Unity', 'C#'],
 
-      links: [['Github', 'https://github.com/andresnavag93/awesome-runner']]
+      links: [['Github', 'https://github.com/andresnavag93/unity-projects']]
     }
   },
   {

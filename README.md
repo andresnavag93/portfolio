@@ -13,7 +13,7 @@
 
 ### Technologies / Tools
 
-- React.Js
+- React.js
 - TypeScript
 - Vite
 - React Router

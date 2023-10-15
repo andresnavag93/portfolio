@@ -12,7 +12,7 @@ import { WebTitle } from '../components/WebTitle/WebTitle.tsx'
 import Stack from '@mui/material/Stack'
 import Box from '@mui/material/Box'
 import { ProjectCard } from '../components/ProjectCard/ProjectCard.tsx'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 // import { useEffect } from 'react'
 
 export const ProjectDetail = () => {
@@ -58,7 +58,7 @@ export const ProjectDetail = () => {
 
   window.scrollTo(0, 0)
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <>
       <Button onClick={() => { navigate(-1) }} sx={{ position: 'sticky', top: { xs: 80, sm: 100 }, left: { xs: 20, sm: 0 }, zIndex: 1, color: '#fff', border: 1, backgroundColor: '#0E0E0E', ':hover': { backgroundColor: '#0E0E0E' } }}>
         Back
       </Button>
@@ -115,6 +115,6 @@ export const ProjectDetail = () => {
           </Table>
         </Box>
       </Box>
-    </motion.div>
+    </>
   )
 }
